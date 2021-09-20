@@ -1,0 +1,11 @@
+{
+  "editor.tabSize": 2,
+  "files.exclude": {
+    ".czrc": true,
+    ".gitignore": true,
+    ".husky": true,
+    ".lintstagedrc.json": true,
+    ".prettierrc.json": true,
+    "node_modules": true
+  }
+}
