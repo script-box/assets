@@ -2,9 +2,9 @@
 
 ## Continuous Integration
 
-For Continuous Integration to work, a secret named `NPM_TOKEN` must be added to the repository.
+For Continuous Integration to publish to [npm](https://www.npmjs.com/), a secret named `NPM_TOKEN` must be added to the repository.
 
-A token can be obtained by logging in to [NPM](https://www.npmjs.com/) and choosing 'Access Tokens' from the avatar drop down.
+A token can be obtained by logging in to [npm](https://www.npmjs.com/) and choosing 'Access Tokens' from the avatar drop down.
 
 ## Contributor
 
