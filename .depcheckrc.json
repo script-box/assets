@@ -1,0 +1,4 @@
+{
+  "ignorePatterns": [],
+  "ignores": ["commitizen", "cz-conventional-changelog", "lint-staged", "prettier-plugin-packagejson"]
+}

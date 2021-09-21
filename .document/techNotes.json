@@ -1,0 +1,48 @@
+{
+  "data": {
+    "description": "script-box assets.",
+    "name": "script-box.assets",
+    "techDescriptions": [
+      {
+        "name": "script-box/configure",
+        "remarks": [
+          "[script-box/configure](https://www.npmjs.com/package/@script-box/configure.cli) is used to configure this solution.",
+          "Run the command `yarn configure` to configure the solution.",
+          "Run the command `yarn setup` to configure, add git hooks, document and format the solution.",
+          "It will configure the tools used by this solution, such as:",
+          "- [Commitizen](https://www.npmjs.com/package/commitizen)\n- [Depcheck](https://www.npmjs.com/package/depcheck)\n- [git](https://git-scm.com/)\n- [Husky](https://www.npmjs.com/package/husky)\n- [lint-staged](https://www.npmjs.com/package/lint-staged)\n- [Prettier](https://prettier.io/)\n- [script-box/configure](https://www.npmjs.com/package/@script-box/configure.cli)\n- [script-box/document](https://www.npmjs.com/package/@script-box/document.cli)\n- [VS Code](https://code.visualstudio.com/)"
+        ]
+      },
+      {
+        "name": "Dependency Checking",
+        "remarks": ["Run the command `yarn depcheck` to check dependencies using [Depcheck](https://www.npmjs.com/package/depcheck)."]
+      },
+      {
+        "name": "Document",
+        "remarks": [
+          "Run the command `yarn document` to generate documentation using [script-box/document](https://www.npmjs.com/package/@script-box/document.cli)."
+        ]
+      },
+      {
+        "name": "Format",
+        "remarks": ["Run the command `yarn format` to format code/artefacts using [Prettier](https://prettier.io/)."]
+      },
+      {
+        "name": "Git Hooks",
+        "remarks": [
+          "Run the command `yarn githooks` to setup:",
+          "- a pre-commit git hook to run [lint-staged](https://www.npmjs.com/package/lint-staged) which will format the code using [Prettier](https://prettier.io/).\n- a prepare-commit-msg git hook to run [Commitizen](https://www.npmjs.com/package/commitizen) to prompt for a standard commit message."
+        ]
+      }
+    ]
+  },
+  "outputFile": "../__docs__/TECH_NOTES.md",
+  "preserve": {
+    "devNotes": {
+      "default": "<!-- add dev notes -->",
+      "endTag": "<!-- /DEV-NOTES -->",
+      "startTag": "<!-- DEV-NOTES -->"
+    }
+  },
+  "templateFile": "./techNotes.tmp"
+}

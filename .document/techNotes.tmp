@@ -1,0 +1,18 @@
+<% 
+print('# ' + name + '\n\n');
+print('> ' + description + '\n\n');
+
+print('## Technical Notes\n\n');
+print('<!-- DEV-NOTES -->\n\n'); 
+print(devNotes + '\n\n'); 
+print('<!-- /DEV-NOTES -->\n\n'); 
+
+for (let i = 0; i < techDescriptions.length; i++) {
+  const techDescription = techDescriptions[i];
+  print('### ' + techDescription.name + '\n\n');
+  for (let j = 0; j < techDescription.remarks.length; j++) {
+    print(techDescription.remarks[j]);
+    print('\n\n');
+  }
+}
+%>

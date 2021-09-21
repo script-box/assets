@@ -1,11 +1,25 @@
 {
+  "[typescript]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
   "editor.tabSize": 2,
+  "files.associations": {
+    "*.json": "jsonc"
+  },
   "files.exclude": {
+    ".configure.js": true,
     ".czrc": true,
-    ".gitignore": true,
+    ".depcheckrc.json": true,
+    ".document": true,
+    ".gitignore": false,
     ".husky": true,
     ".lintstagedrc.json": true,
+    ".monorepo.json": true,
+    ".prettierignore": true,
     ".prettierrc.json": true,
     "node_modules": true
-  }
+  },
+  "workbench.editor.enablePreview": true
 }
