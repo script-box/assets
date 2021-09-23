@@ -6,16 +6,6 @@ print('<!-- /PREAMBLE -->\n\n');
 print('# ' + name + '\n\n');
 print('> ' + description + '\n\n');
 
-if(supportNotes.length > 0) {
-  print(supportHeading + '\n\n');
-  for (let i = 0; i < supportNotes.length; i++) {
-    let supportNote = supportNotes[i];
-    print(supportNote + '\n');
-  }
-
-  print('\n');
-}
-
 print('<!-- DEV-NOTES -->\n\n'); 
 print(devNotes + '\n\n'); 
 print('<!-- /DEV-NOTES -->\n\n'); 
@@ -25,6 +15,16 @@ if(contributingPoints.length > 0) {
   for (let i = 0; i < contributingPoints.length; i++) {
     let contributionPoint = contributingPoints[i];
     print('- ' + contributionPoint + '\n');
+  }
+
+  print('\n');
+}
+
+if(supportNotes.length > 0) {
+  print(supportHeading + '\n\n');
+  for (let i = 0; i < supportNotes.length; i++) {
+    let supportNote = supportNotes[i];
+    print(supportNote + '\n');
   }
 
   print('\n');
