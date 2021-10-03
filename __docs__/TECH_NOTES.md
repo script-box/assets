@@ -12,11 +12,7 @@
 
 ### configure/setup
 
-[@script-box/configure.cli](https://www.npmjs.com/package/@script-box/configure.cli) is used to configure this solution.
-
 Run the command `pnpm run configure` to configure the solution.
-
-Run the command `pnpm run setup` to configure, add git hooks, document and format the solution.
 
 It will configure the tools used by this solution, such as:
 
@@ -29,6 +25,8 @@ It will configure the tools used by this solution, such as:
 - [@script-box/configure.cli](https://www.npmjs.com/package/@script-box/configure.cli)
 - [@script-box/document.cli](https://www.npmjs.com/package/@script-box/document.cli)
 - [VS Code](https://code.visualstudio.com/)
+
+Run the command `pnpm run setup` to configure, add git hooks, document and format the solution.
 
 ### depcheck
 

@@ -16,7 +16,7 @@ specifiers:
 
 devDependencies:
   '@zero-version/configure.cli': 0.1.0-beta
-  '@zero-version/configure.script-box.basic-root': 0.1.8
+  '@zero-version/configure.script-box.basic-root': 0.1.9
   '@zero-version/document.cli': 0.1.0-beta
   commitizen: 4.2.4
   cz-conventional-changelog: 3.3.0
@@ -326,8 +326,8 @@ packages:
       shelljs: 0.8.4
     dev: true
 
-  /@zero-version/configure.script-box.basic-root/0.1.8:
-    resolution: { integrity: sha512-RBBipkVbFBIkapZ4EnYPg5F0+MNrf3aixaUNOBUHylZfXE4Zu6w9jy8l9LSxgP+MtjzPCIuv4HPKB9B3e6i7pQ== }
+  /@zero-version/configure.script-box.basic-root/0.1.9:
+    resolution: { integrity: sha512-mM3amdGfgKvheY6lJoUOQU6PTUemyC0vvvFKqHlh9eZRyH5EQkO3pI6T0ypFpOqN1fKiP9wC/FKl5n9Oa3JrNg== }
     dependencies:
       json-stable-stringify: 1.0.1
       json5: 2.2.0

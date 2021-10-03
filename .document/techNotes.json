@@ -6,11 +6,10 @@
       {
         "name": "configure/setup",
         "remarks": [
-          "[@script-box/configure.cli](https://www.npmjs.com/package/@script-box/configure.cli) is used to configure this solution.",
           "Run the command `pnpm run configure` to configure the solution.",
-          "Run the command `pnpm run setup` to configure, add git hooks, document and format the solution.",
           "It will configure the tools used by this solution, such as:",
-          "- [Commitizen](https://www.npmjs.com/package/commitizen)\n- [Depcheck](https://www.npmjs.com/package/depcheck)\n- [git](https://git-scm.com/)\n- [Husky](https://www.npmjs.com/package/husky)\n- [lint-staged](https://www.npmjs.com/package/lint-staged)\n- [Prettier](https://prettier.io/)\n- [@script-box/configure.cli](https://www.npmjs.com/package/@script-box/configure.cli)\n- [@script-box/document.cli](https://www.npmjs.com/package/@script-box/document.cli)\n- [VS Code](https://code.visualstudio.com/)"
+          "- [Commitizen](https://www.npmjs.com/package/commitizen)\n- [Depcheck](https://www.npmjs.com/package/depcheck)\n- [git](https://git-scm.com/)\n- [Husky](https://www.npmjs.com/package/husky)\n- [lint-staged](https://www.npmjs.com/package/lint-staged)\n- [Prettier](https://prettier.io/)\n- [@script-box/configure.cli](https://www.npmjs.com/package/@script-box/configure.cli)\n- [@script-box/document.cli](https://www.npmjs.com/package/@script-box/document.cli)\n- [VS Code](https://code.visualstudio.com/)",
+          "Run the command `pnpm run setup` to configure, add git hooks, document and format the solution."
         ]
       },
       {
